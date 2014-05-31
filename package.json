@@ -1,0 +1,56 @@
+{
+  "name": "print-2d-bit-array",
+  "version": "0.1.0",
+  "description": "Prints 2D-arrays of bits. Supports ndarray.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/print.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rexxars/print-2d-bit-array.git"
+  },
+  "keywords": [
+    "print",
+    "2d",
+    "1bit",
+    "array",
+    "ndarray",
+    "console"
+  ],
+  "author": "Espen Hovlandsdal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexxars/print-2d-bit-array/issues"
+  },
+  "homepage": "https://github.com/rexxars/print-2d-bit-array",
+  "dependencies": {
+    "isndarray": "^0.1.0"
+  },
+  "devDependencies": {
+    "ndarray": "^1.0.15",
+    "tape": "^2.13.1",
+    "ndarray-bit": "^1.0.0"
+  },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/17..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  }
+}
